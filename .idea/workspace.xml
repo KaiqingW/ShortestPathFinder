@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c19ca81-4ee5-4fff-9b8c-a540eec12837" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/ShortestPathFinder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/dest.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/start.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/item/boat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/item/dragon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/item/gem1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/item/man15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/map/flames.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/map/grass1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/map/water.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/FlexHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/FlexQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/HeapVal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestPathFinder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortestPathFinder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Water.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/water.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/boat.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/item/boat.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/dragon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/item/dragon.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/flames.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/flames.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/gem1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/item/gem1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/grass1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/grass1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/man15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/item/man15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PriorityQ.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9c19ca81-4ee5-4fff-9b8c-a540eec12837" name="Default Changelist" comment="first commit" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/map/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="method#hexdist#0;class#Map#0" />
                 <element signature="method#searchD#0;class#Map#0" />
@@ -71,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/FlexHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
+            <state relative-caret-position="292">
               <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
             </state>
           </provider>
@@ -81,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/map/FlexQ.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#FlexQ#0;class#FlexQ#0" />
@@ -96,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="15">
               <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -229,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558033061981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558034511502" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -365,9 +324,7 @@
     <entry file="file://$PROJECT_DIR$/resources/map/flames.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/map/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/map/1.png" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -375,34 +332,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/FlexHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/map/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/map/start.jpeg" />
+    <entry file="file://$PROJECT_DIR$/resources/map/dest.jpeg" />
+    <entry file="file://$PROJECT_DIR$/src/PathFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="15">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/HeapVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PathFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -416,23 +368,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/map/FlexHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="292">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/map/start.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/map/dest.jpeg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/FlexQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#FlexQ#0;class#FlexQ#0" />
@@ -443,10 +389,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/HeapVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/map/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="408">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="method#hexdist#0;class#Map#0" />
             <element signature="method#searchD#0;class#Map#0" />
