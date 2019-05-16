@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c19ca81-4ee5-4fff-9b8c-a540eec12837" name="Default Changelist" comment="first commit" />
+    <list default="true" id="9c19ca81-4ee5-4fff-9b8c-a540eec12837" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPathFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/dest.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPathFinder/resources/map/start.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/FlexHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/FlexQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/FlexQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Node.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,39 +28,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/map/Map.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="269">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
-                <element signature="method#hexdist#0;class#Map#0" />
-                <element signature="method#searchD#0;class#Map#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="63" column="20" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/map/FlexHeap.java">
+        <entry file="file://$PROJECT_DIR$/src/map/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/map/FlexQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#FlexQ#0;class#FlexQ#0" />
-                <element signature="method#FlexQ#1;class#FlexQ#0" />
-                <element signature="method#pop#0;class#FlexQ#0" />
-                <element signature="method#adjust#0;class#FlexQ#0" />
+                <element signature="method#calchpdist#0;class#Map#0" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="method#generateSD#0;class#Map#0" />
+                <element signature="method#generateType#0;class#Map#0" />
+                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#2836#2837#0" expanded="true" />
+                <element signature="method#Map#1;class#Map#0" />
+                <element signature="method#findNeighbours#0;class#Map#0" />
+                <element signature="method#hexdistD#0;class#Map#0" />
+                <element signature="method#hexdist#1;class#Map#0" />
+                <element signature="e#4223#4224#0" expanded="true" />
+                <element signature="e#4284#4285#0" expanded="true" />
+                <element signature="method#search#1;class#Map#0" />
+                <element signature="class#4567:4725" />
+                <element signature="e#4793#4794#0" expanded="true" />
+                <element signature="e#4848#4849#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,38 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/map/HeapVal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PathFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+            <state relative-caret-position="408">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +99,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="method#setType#0;class#Node#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,12 +134,13 @@
         <option value="$PROJECT_DIR$/src/bridgePattern/IController.java" />
         <option value="$PROJECT_DIR$/src/map/HexagonNode.java" />
         <option value="$PROJECT_DIR$/src/map/View.java" />
-        <option value="$PROJECT_DIR$/src/Controller.java" />
-        <option value="$PROJECT_DIR$/src/map/FlexQ.java" />
         <option value="$PROJECT_DIR$/src/map/FlexHeap.java" />
-        <option value="$PROJECT_DIR$/src/map/Map.java" />
-        <option value="$PROJECT_DIR$/src/View.java" />
+        <option value="$PROJECT_DIR$/src/map/FlexQ.java" />
         <option value="$PROJECT_DIR$/src/map/Node.java" />
+        <option value="$PROJECT_DIR$/src/map/Map.java" />
+        <option value="$PROJECT_DIR$/src/Controller.java" />
+        <option value="$PROJECT_DIR$/src/View.java" />
+        <option value="$PROJECT_DIR$/src/testing.java" />
       </list>
     </option>
   </component>
@@ -174,12 +180,6 @@
               <item name="ShortestPathFinder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ShortestPathFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPathFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,15 +188,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558034561132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558049799626" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/map" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/item" />
       <recent name="$PROJECT_DIR$/resources/map" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/map" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortestPath">
+  <component name="RunManager" selected="Application.testing">
     <configuration name="ShortestPath" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="View" />
       <module name="ShortestPathFinder" />
@@ -228,8 +231,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testing" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="testing" />
+      <module name="ShortestPathFinder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ShortestPath" />
+      <item itemvalue="Application.testing" />
       <item itemvalue="Application.ShortestPathFinder" />
     </list>
   </component>
@@ -250,8 +261,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7325301" visible="true" weight="0.26752505" />
-      <window_info id="Structure" order="1" sideWeight="0.26746988" side_tool="true" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7307002" visible="true" weight="0.26752505" />
+      <window_info id="Structure" order="1" sideWeight="0.26929983" side_tool="true" visible="true" weight="0.26752505" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -259,7 +270,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,13 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/map/start.jpeg" />
     <entry file="file://$PROJECT_DIR$/resources/map/dest.jpeg" />
     <entry file="file://$PROJECT_DIR$/src/PathFinder.java">
@@ -348,23 +352,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/map/HeapVal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -377,32 +368,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/FlexQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="297">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#FlexQ#0;class#FlexQ#0" />
-            <element signature="method#FlexQ#1;class#FlexQ#0" />
+            <element signature="method#insert#0;class#FlexQ#0" />
             <element signature="method#pop#0;class#FlexQ#0" />
             <element signature="method#adjust#0;class#FlexQ#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/HeapVal.java">
+    <entry file="file://$PROJECT_DIR$/src/map/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="method#setType#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="method#hexdist#0;class#Map#0" />
-            <element signature="method#searchD#0;class#Map#0" />
+            <element signature="method#calchpdist#0;class#Map#0" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="method#generateSD#0;class#Map#0" />
+            <element signature="method#generateType#0;class#Map#0" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="method#Map#1;class#Map#0" />
+            <element signature="method#findNeighbours#0;class#Map#0" />
+            <element signature="method#hexdistD#0;class#Map#0" />
+            <element signature="method#hexdist#1;class#Map#0" />
+            <element signature="e#4223#4224#0" expanded="true" />
+            <element signature="e#4284#4285#0" expanded="true" />
+            <element signature="method#search#1;class#Map#0" />
+            <element signature="class#4567:4725" />
+            <element signature="e#4793#4794#0" expanded="true" />
+            <element signature="e#4848#4849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
           </folding>
         </state>
       </provider>

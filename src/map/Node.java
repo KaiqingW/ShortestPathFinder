@@ -1,7 +1,6 @@
 package map;
 
 public class Node implements HeapVal<Node> {
-    protected static int[] costof = {1,2,3};
 
     public int _type;
     public int _x, _y;
@@ -10,7 +9,6 @@ public class Node implements HeapVal<Node> {
     public int _cost;
     public int _accumulateCost;
     public Node _prev;
-    public Node _prevD;
 
     public Node(int y, int x){
         _x = x;
@@ -23,13 +21,14 @@ public class Node implements HeapVal<Node> {
         _estCost = other._estCost;
         _accumulateCost = other._accumulateCost;
         _prev = other._prev;
-        _prevD = other._prevD;
     }
 
     public void setType(int t){
         _type = t;
-        _cost = costof[t-1];
+        _cost = Map.COST[_type];
     }
+
+    public int getType(){return _type;}
 
     @Override
     public int compareTo(Node n){

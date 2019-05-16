@@ -14,6 +14,7 @@ public class FlexQ<T extends HeapVal<T>> {
     //constructor with default comparator (the bigger the priority is higher)
     public FlexQ(int cap) {
         _capacity = cap;
+        _storage = (T[]) new HeapVal[_capacity];
         _cmp = new Comparator<T>() {
             @Override
             public int compare(T o1, T o2) {
@@ -24,6 +25,7 @@ public class FlexQ<T extends HeapVal<T>> {
     //constructor with customized comparator
     public FlexQ(int cap, Comparator<T> cmp){
         _capacity = cap;
+        _storage = (T[]) new HeapVal[_capacity];
         _cmp = cmp;
     } // constructor
 
@@ -47,6 +49,7 @@ public class FlexQ<T extends HeapVal<T>> {
         if (_size > 0) {
             T temp = _storage[0];
             _storage[0] = _storage[_size - 1];
+            _size--;
             adjust(0);
             return temp;
         }
