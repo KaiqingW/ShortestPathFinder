@@ -36,11 +36,11 @@ public class FlexQ<T extends HeapVal<T>> {
     private int right(int index){ return 2*index +2;}
 
     public void insert(T element){
-        if (_size < _capacity){
-            _storage[_size] = element;
-            _size++;
-        }
-        adjust(_size);
+
+        if (_size >= _capacity) throw new RuntimeException("out of capacity");
+        _storage[_size] = element;
+        _size++;
+        adjust(_size-1);
     }
 
     public T pop(){

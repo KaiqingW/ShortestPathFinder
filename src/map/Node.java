@@ -1,13 +1,16 @@
 package map;
 
 public class Node implements HeapVal<Node> {
-    int _type;
+    protected static int[] costof = {1,2,3};
+
+    public int _type;
     public int _x, _y;
     int _index = -1;
     public int _estCost;
     public int _cost;
     public int _accumulateCost;
-    Node _prev;
+    public Node _prev;
+    public Node _prevD;
 
     public Node(int y, int x){
         _x = x;
@@ -20,9 +23,13 @@ public class Node implements HeapVal<Node> {
         _estCost = other._estCost;
         _accumulateCost = other._accumulateCost;
         _prev = other._prev;
+        _prevD = other._prevD;
     }
 
-    public void setType(int t){_type = t;}
+    public void setType(int t){
+        _type = t;
+        _cost = costof[t-1];
+    }
 
     @Override
     public int compareTo(Node n){
@@ -39,9 +46,4 @@ public class Node implements HeapVal<Node> {
         return _index;
     }
 
-    public boolean inMap(int r, int c){
-        return _x >= 0 && _x < c && _y >= 0 && _y < r;
-    }
-
-    //public abstract Node[] neighbour();
 }
