@@ -1,7 +1,5 @@
 package map;
 
-import map.HeapVal;
-
 import java.util.Comparator;
 
 public class FlexQ<T extends HeapVal<T>> {
@@ -9,7 +7,6 @@ public class FlexQ<T extends HeapVal<T>> {
     int _size;
     int _capacity;
     Comparator<T> _cmp;
-    int _index;
 
     //constructor with default comparator (the bigger the priority is higher)
     public FlexQ(int cap) {
@@ -29,21 +26,18 @@ public class FlexQ<T extends HeapVal<T>> {
         _cmp = cmp;
     } // constructor
 
-    public int size() { return _size;}
+    private int parent(int index){ return (index - 1)/2;}//parent
 
-    private int parent(int index){ return (index - 1)/2;}
+    private int left(int index){ return 2*index +1;}//left
 
-    private int left(int index){ return 2*index +1;}
-
-    private int right(int index){ return 2*index +2;}
+    private int right(int index){ return 2*index +2;}//right
 
     public void insert(T element){
-
         if (_size >= _capacity) throw new RuntimeException("out of capacity");
         _storage[_size] = element;
         _size++;
         adjust(_size-1);
-    }
+    }//insert
 
     public T pop(){
         if (_size > 0) {
@@ -54,11 +48,13 @@ public class FlexQ<T extends HeapVal<T>> {
             return temp;
         }
         return null;
-    }
+    }//pop
 
+    // reorder the queue
     public void adjust(int i){
         if (i<0 || i>=_size) return;
         _storage[i].setIndex(i);
+        // if priority is higher than its parent, go upside
         while (i > 0 && _cmp.compare(_storage[i],_storage[parent(i)]) > 0){
             int iParent = parent(i);
             T temp = _storage[iParent];                 // swap
@@ -68,6 +64,7 @@ public class FlexQ<T extends HeapVal<T>> {
             _storage[iParent].setIndex(i);
             i = iParent;
         }
+        // otherwise, check the value of left and right, go downside
         int swapMark;
         do {
             int iLeft = left(i);
@@ -87,6 +84,6 @@ public class FlexQ<T extends HeapVal<T>> {
                 i = swapMark;
             }
         }while (swapMark != -1);
-    }
+    }//adjust
 
 }
